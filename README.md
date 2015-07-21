@@ -1,3 +1,5 @@
+<img alt="Keymetrics logo" src="https://keymetrics.io/assets/images/keymetrics-v4.png" width="250px">
+
 # Keymetrics Support
 
 If you have a suggestion or an issue to report, please read the troubleshooting process below first. If this does not help you, use our [Github issue tracker](https://github.com/Unitech/keymetrics.io/issues).
@@ -36,7 +38,9 @@ Make sure you have only one PM2 instance launched `ps -aux | grep PM2`
 ## Documentation
 
 [Basic PM2 Documentation](https://github.com/Unitech/pm2)
+
 [Advanced PM2 documentation](https://github.com/Unitech/PM2/blob/master/ADVANCED_README.md)
+
 [Advanced interaction with Keymetrics](https://github.com/keymetrics/pmx)
 
 ## About Keymetrics and PM2
