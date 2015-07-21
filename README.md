@@ -1,4 +1,4 @@
-# <img alt="Keymetrics logo" src="https://keymetrics.io/assets/images/keymetrics-v4.png" height="50px" style="display:inline-block"> Keymetrics Support
+# <img alt="Keymetrics logo" src="https://keymetrics.io/assets/images/keymetrics-v4.png" height="28px" style="display:inline-block"> Keymetrics Support
 
 If you have a suggestion or an issue to report, please read the troubleshooting process below first. If this does not help you, use our [Github issue tracker](https://github.com/Unitech/keymetrics.io/issues).
 
