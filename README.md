@@ -33,6 +33,12 @@ Make sure you have only one PM2 instance launched `ps -aux | grep PM2`
 
 - Also, your repository should not ask for a password input (it means you must clone it via ssh), try typing `git remote update` manually in the folder and see if it asks for a password or not.
 
+###3. The versioning block tell me `File modified (unstaged changes)`
+
+It means that there are local files that has been changed and not comited.
+
+To see which files has been modified do a `git status`. Once it is fixed (via git commit or git stash) do a `pm2 restart all`.
+
 ## Documentation
 
 [Basic PM2 Documentation](https://github.com/Unitech/pm2)
