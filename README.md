@@ -39,6 +39,20 @@ It means that there are local files that has been changed and not comited.
 
 To see which files has been modified do a `git status`. Once it is fixed (via git commit or git stash) do a `pm2 restart all`.
 
+### In the dashboard I've linked two servers and they are continiously flickering
+
+You made a `pm2 link <public_id> <private_id> [name]` without setting the name option. By default if the name is empty, it becomes the $HOSTNAME env variable.
+
+To fix this:
+
+```
+# Server 1
+$ pm2 link <private_id> <public_id> server1
+
+# Server 2
+$ pm2 link <private_id> <public_id> server2
+```
+
 ## Documentation
 
 [Basic PM2 Documentation](https://github.com/Unitech/pm2)
