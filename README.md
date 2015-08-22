@@ -1,4 +1,4 @@
-# <img alt="Keymetrics logo" src="https://keymetrics.io/assets/images/keymetrics-v4.png" height="28px" style="display:inline-block"> Keymetrics Support
+# <img alt="Keymetrics logo" src="https://keymetrics.io/assets/images/keymetrics-v4.png" height="28px" style="display:inline-block"> Keymetrics FAQ
 
 If you have a suggestion or an issue to report, please read the troubleshooting process below first. If this does not help you, use our [Github issue tracker](https://github.com/Unitech/keymetrics.io/issues).
 
@@ -12,7 +12,8 @@ If you have a suggestion or an issue to report, please read the troubleshooting 
 If you are in this situation, it might be for several reasons.
 
 - You are behind a company proxy or firewall.
-Make sure that the ports 80 and 43554 are open.
+Make sure that the ports 80 (TCP outbound), 443 (HTTPS) and 43554 (TCP inbound/outbound) are open.
+If you need to whitelist IPs, allow these ones: 62.210.94.153 and 62.210.101.249
 
 - You are using an old version of Node.js or PM2.
 Make sure you are using at least Node.js v0.11.x or higher (node v0.12.x or iojs v.2.x is recommended).
