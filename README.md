@@ -36,7 +36,7 @@ Make sure you have only one PM2 instance launched `ps -aux | grep PM2`
 
 ###3. The versioning block tell me `File modified (unstaged changes)`
 
-It means that there are local files that has been changed and not comited.
+It means that there are local files that has been changed and not committed.
 
 To see which files has been modified do a `git status`. Once it is fixed (via git commit or git stash) do a `pm2 restart all`.
 
